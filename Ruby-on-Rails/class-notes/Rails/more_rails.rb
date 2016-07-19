@@ -21,3 +21,11 @@ Instance variables in controller are available to view
 Instance variables do not stick around between requests.
 
 	
+### Helpers
+If we want to format how time looks,
+	-Put into view? -> NO, because we can't re-use   '
+	-Controller? -> NO, because should be view format agnostic
+	=>Helpers
+
+"View helpers"
+

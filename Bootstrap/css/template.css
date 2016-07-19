@@ -1,0 +1,7 @@
+	.bg{
+		background-color: royalblue;
+		background-image: url('../images/preview.png');
+		background-position: center center;
+		background-size: cover;
+		height: 200px;
+	}
