@@ -29,3 +29,23 @@ If we want to format how time looks,
 
 "View helpers"
 
+Everytime you generate a controller, you get a helper for it as well.
+	Methods in helpers are available to any views - not only in the specified view(controller)
+
+# built-in helper
+link_to name, path
+	:hyperlink generator that displays name and links to path
+
+	path could either be a regular string or a route defined in the routes.rb
+	file ending with _url(full path) or _path(relative path)
+
+	instead of specifying path, you specify variable - automatically changes
+	your page if the variable changes
+
+	_url and _path are used interchangeably, but full path is required 
+	in cases of redirection
+
+
+<Summary>
+Helpers are "macros"/"formatters" for view
+When using link_to, there is no need to change things if a path changes
